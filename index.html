@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="resume-container">
+        <header class="header">
+            <h1>Static Resume</h1>
+            <div class="profile">
+                <img src="1723341693689.jpg" alt="Profile Picture" id="profile-picture" />
+                <div class="personal-info">
+                    <h2 id="name">M.Shahrukh Javed</h2>
+                    <p class="contact">Email: <a href="mailto:shahrukhjaved459@gmail.com">shahrukhjaved459@gmail.com</a></p>
+                    <p class="contact">Phone: <a href="tel:+923172077696">+92 3205421692</a></p>
+                </div>
+            </div>
+        </header>
+
+        <div class="tabs">
+            <button id="education-tab">Education</button>
+            <button id="skills-tab">Skills</button>
+            <button id="experience-tab">Experience</button>
+        </div>
+
+        <main class="content">
+            <!-- Education Section -->
+            <section id="education-content" class="content-section hidden">
+                <!-- Content will be dynamically populated -->
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills-content" class="content-section hidden">
+                <!-- Content will be dynamically populated -->
+            </section>
+
+            <!-- Work Experience Section -->
+            <section id="work-experience-content" class="content-section hidden">
+                <!-- Content will be dynamically populated -->
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
